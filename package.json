@@ -1,0 +1,67 @@
+{
+  "name": "ai-task-manager",
+  "version": "2.1.0",
+  "description": "AI-powered task management system with intelligent prioritization",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "task-management",
+    "productivity",
+    "collaboration",
+    "machine-learning",
+    "react",
+    "typescript"
+  ],
+  "author": "AI Task Manager Team",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "tailwindcss": "^3.3.0",
+    "openai": "^4.0.0",
+    "socket.io": "^4.7.0",
+    "socket.io-client": "^4.7.0",
+    "mongodb": "^6.0.0",
+    "redis": "^4.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.292.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.7.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0",
+    "@types/bcryptjs": "^2.4.0",
+    "@types/jsonwebtoken": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ai-task-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ai-task-manager/issues"
+  },
+  "homepage": "https://ai-task-manager.vercel.app"
+}
